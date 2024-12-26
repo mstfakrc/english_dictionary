@@ -1,0 +1,37 @@
+name: dictionaryenglish
+description: A new Flutter project.
+publish_to: "none"  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"  # Your current Dart SDK version range is appropriate.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  win32: ^5.8.0
+  clay_containers: ^0.3.4
+  curved_navigation_bar: ^1.0.3
+  http: ^1.1.0
+  audioplayers: ^5.2.1
+  sqflite: ^2.2.6
+  unity_ads_plugin: ^0.3.8
+  flutter_spinkit: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2  # Ensure this is the latest compatible version.
+  flutter_lints: ^2.0.0  # Lints for good coding practices.
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  # Add custom fonts or assets if needed here
